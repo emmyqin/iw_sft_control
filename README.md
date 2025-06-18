@@ -15,5 +15,5 @@ The code consists of 7 Python scripts and the file `main.py` contains various pa
 - `python main.py`: trains the network, storing checkpoints along the way.
 - `Example`: 
 ```bash
-python3 stratefied_filtered_bc.py --env hopper-medium-v2
+python3 stratefied_filtered_bc.py
 ```
