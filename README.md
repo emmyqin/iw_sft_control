@@ -4,16 +4,17 @@ Author's Pytorch implementation of **I**mportance **W**eighted **S**upervised **
 
 
 ## Overview of the Code
-The code consists of 7 Python scripts and the file `main.py` contains various parameter settings which are interpreted and described in our paper.
-### Requirements
-- `torch                         1.12.0`
-- `mujoco                        2.2.1`
-- `mujoco-py                     2.1.2.14`
-- `d4rl                          1.1`
+The code consists of 3 Python scripts and the file `main.py`. To install the correct packages, run the following in the command line. Please note first you need to have Mujoco downloaded in the folder /home/ubuntu/.mujoco/mujoco.
+~~~
+pip install -r requirements.txt
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ubuntu/.mujoco/mujoco210/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
+
+sudo apt-get update
+sudo apt-get install libx11-dev patchelf libglew-dev libxcb1
+~~~
+
 
 ### Running the code
-- `python main.py`: trains the network, storing checkpoints along the way.
-- `Example`: 
-```bash
-python3 stratefied_filtered_bc.py
+- `python3 main.py`: trains the network, storing checkpoints along the way.
 ```
