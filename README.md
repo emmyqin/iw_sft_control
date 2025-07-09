@@ -4,7 +4,7 @@ Author's Pytorch implementation of **I**mportance **W**eighted **S**upervised **
 
 
 ## Overview of the Code
-The code consists of 3 Python scripts and the file `main.py`. To install the correct packages, run the following in the command line. Please note first you need to have Mujoco downloaded in the folder /home/ubuntu/.mujoco/mujoco.
+The code consists of 3 Python scripts and the file `main.py`. To install the correct packages, run the following in the command line. Please note first you need to have Mujoco downloaded in the folder `/home/ubuntu/.mujoco/mujoco`.
 ~~~
 pip install -r requirements.txt
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ubuntu/.mujoco/mujoco210/bin
