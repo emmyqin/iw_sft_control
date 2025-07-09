@@ -16,5 +16,4 @@ sudo apt-get install libx11-dev patchelf libglew-dev libxcb1
 
 
 ### Running the code
-- `python3 main.py`: trains the network, storing checkpoints along the way.
-```
+- `python3 main.py`: trains the network, make sure to enter your wandb details.
