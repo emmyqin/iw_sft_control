@@ -2,6 +2,8 @@
 
 Author's Pytorch implementation of **I**mportance **W**eighted **S**upervised **F**ine **T**uning (iw-SFT). Iw-SFT uses importance weights to adaptively upweight or downweight points during training; we show this provides a much tighter bound to the RL training objective in comparison to SFT alone.
 
+For Arxiv check link [here](https://arxiv.org/abs/2507.12856). For blog post check out link [here](https://the-emotional-scientist.ghost.io/supervised-fine-tuning-on-curated-data-is-reinforcement-learning-and-can-be-improved/).
+
 
 ## Overview of the Code
 The code consists of 3 Python scripts and the file `main.py`. To install the correct packages, run the following in the command line. Please note first you need to have Mujoco downloaded in the folder `/home/ubuntu/.mujoco/mujoco`.
