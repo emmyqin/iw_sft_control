@@ -4,6 +4,7 @@ Author's Pytorch implementation of **I**mportance **W**eighted **S**upervised **
 
 For Arxiv check link [here](https://arxiv.org/abs/2507.12856). For blog post check out link [here](https://the-emotional-scientist.ghost.io/supervised-fine-tuning-on-curated-data-is-reinforcement-learning-and-can-be-improved/).
 
+For more general information see [here](https://independentresearch.ai/posts/iwsft/).
 
 ## Overview of the Code
 The code consists of 3 Python scripts and the file `main.py`. To install the correct packages, run the following in the command line. Please note first you need to have Mujoco downloaded in the folder `/home/ubuntu/.mujoco/mujoco`.
